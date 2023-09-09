@@ -1,0 +1,102 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: yellowgreen;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+ul li{
+    display: inline;
+    text-decoration: overline;
+    color: rgba(128, 128, 128, 0.281);
+    font-size:x-large;
+    animation-name: grow;
+    animation-duration: 0.1s;
+    transition: all 1s;
+    z-index: 100;
+    
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+}
+.navigate{
+    color: rgba(128, 128, 128, 0.281);
+    text-decoration: overline;
+    font-size:x-large;
+    display: inline-flex;
+    padding-left: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    animation-name: grow;
+    animation-duration: 0.1s;
+    transition: all 1s;
+}
+
+
+
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.281);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: rgba(128, 128, 128, 0.281);
+    display:flex;
+    flex-direction: column;
+    padding:2vw 4vw;
+    width:90%;
+    max-width:600px;
+    border-radius: 10px;
+}
+
+form h3{
+    color:yellowgreen;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+form input{
+    border:0;
+    margin:10px 0;
+    padding:20px;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.281);
+    font-size: 16px;
+}
+
+form button{
+    padding:15px;
+    background: yellowgreen;
+    color: white;
+    font-size: 18px;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    width: 150px;
+    margin:20px auto 0;
+    border-radius: 30px;
+}
